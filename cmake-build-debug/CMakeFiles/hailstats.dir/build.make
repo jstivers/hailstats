@@ -57,38 +57,38 @@ include CMakeFiles/hailstats.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hailstats.dir/flags.make
 
-CMakeFiles/hailstats.dir/main.cpp.o: CMakeFiles/hailstats.dir/flags.make
-CMakeFiles/hailstats.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/johnstivers/cs103/hailstats/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hailstats.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hailstats.dir/main.cpp.o -c /Users/johnstivers/cs103/hailstats/main.cpp
+CMakeFiles/hailstats.dir/hailstats.cpp.o: CMakeFiles/hailstats.dir/flags.make
+CMakeFiles/hailstats.dir/hailstats.cpp.o: ../hailstats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/johnstivers/cs103/hailstats/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hailstats.dir/hailstats.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hailstats.dir/hailstats.cpp.o -c /Users/johnstivers/cs103/hailstats/hailstats.cpp
 
-CMakeFiles/hailstats.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hailstats.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/johnstivers/cs103/hailstats/main.cpp > CMakeFiles/hailstats.dir/main.cpp.i
+CMakeFiles/hailstats.dir/hailstats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hailstats.dir/hailstats.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/johnstivers/cs103/hailstats/hailstats.cpp > CMakeFiles/hailstats.dir/hailstats.cpp.i
 
-CMakeFiles/hailstats.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hailstats.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/johnstivers/cs103/hailstats/main.cpp -o CMakeFiles/hailstats.dir/main.cpp.s
+CMakeFiles/hailstats.dir/hailstats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hailstats.dir/hailstats.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/johnstivers/cs103/hailstats/hailstats.cpp -o CMakeFiles/hailstats.dir/hailstats.cpp.s
 
-CMakeFiles/hailstats.dir/main.cpp.o.requires:
+CMakeFiles/hailstats.dir/hailstats.cpp.o.requires:
 
-.PHONY : CMakeFiles/hailstats.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/hailstats.dir/hailstats.cpp.o.requires
 
-CMakeFiles/hailstats.dir/main.cpp.o.provides: CMakeFiles/hailstats.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/hailstats.dir/main.cpp.o.provides
+CMakeFiles/hailstats.dir/hailstats.cpp.o.provides: CMakeFiles/hailstats.dir/hailstats.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/hailstats.cpp.o.provides.build
+.PHONY : CMakeFiles/hailstats.dir/hailstats.cpp.o.provides
 
-CMakeFiles/hailstats.dir/main.cpp.o.provides.build: CMakeFiles/hailstats.dir/main.cpp.o
+CMakeFiles/hailstats.dir/hailstats.cpp.o.provides.build: CMakeFiles/hailstats.dir/hailstats.cpp.o
 
 
 # Object files for target hailstats
 hailstats_OBJECTS = \
-"CMakeFiles/hailstats.dir/main.cpp.o"
+"CMakeFiles/hailstats.dir/hailstats.cpp.o"
 
 # External object files for target hailstats
 hailstats_EXTERNAL_OBJECTS =
 
-hailstats: CMakeFiles/hailstats.dir/main.cpp.o
+hailstats: CMakeFiles/hailstats.dir/hailstats.cpp.o
 hailstats: CMakeFiles/hailstats.dir/build.make
 hailstats: CMakeFiles/hailstats.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/johnstivers/cs103/hailstats/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hailstats"
@@ -99,7 +99,7 @@ CMakeFiles/hailstats.dir/build: hailstats
 
 .PHONY : CMakeFiles/hailstats.dir/build
 
-CMakeFiles/hailstats.dir/requires: CMakeFiles/hailstats.dir/main.cpp.o.requires
+CMakeFiles/hailstats.dir/requires: CMakeFiles/hailstats.dir/hailstats.cpp.o.requires
 
 .PHONY : CMakeFiles/hailstats.dir/requires
 

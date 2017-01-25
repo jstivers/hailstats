@@ -123,32 +123,32 @@ hailstats/fast:
 	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/build
 .PHONY : hailstats/fast
 
-main.o: main.cpp.o
+hailstats.o: hailstats.cpp.o
 
-.PHONY : main.o
+.PHONY : hailstats.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/main.cpp.o
-.PHONY : main.cpp.o
+hailstats.cpp.o:
+	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/hailstats.cpp.o
+.PHONY : hailstats.cpp.o
 
-main.i: main.cpp.i
+hailstats.i: hailstats.cpp.i
 
-.PHONY : main.i
+.PHONY : hailstats.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/main.cpp.i
-.PHONY : main.cpp.i
+hailstats.cpp.i:
+	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/hailstats.cpp.i
+.PHONY : hailstats.cpp.i
 
-main.s: main.cpp.s
+hailstats.s: hailstats.cpp.s
 
-.PHONY : main.s
+.PHONY : hailstats.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/main.cpp.s
-.PHONY : main.cpp.s
+hailstats.cpp.s:
+	$(MAKE) -f CMakeFiles/hailstats.dir/build.make CMakeFiles/hailstats.dir/hailstats.cpp.s
+.PHONY : hailstats.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hailstats"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... hailstats.o"
+	@echo "... hailstats.i"
+	@echo "... hailstats.s"
 .PHONY : help
 
 

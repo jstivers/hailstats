@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/johnstivers/cs103/hailstats/main.cpp">
+		<Unit filename="/Users/johnstivers/cs103/hailstats/hailstats.cpp">
 			<Option target="hailstats"/>
 		</Unit>
 		<Unit filename="/Users/johnstivers/cs103/hailstats/CMakeLists.txt">

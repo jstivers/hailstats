@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hailstats.dir/main.cpp.o"
+  "CMakeFiles/hailstats.dir/hailstats.cpp.o"
   "hailstats.pdb"
   "hailstats"
 )

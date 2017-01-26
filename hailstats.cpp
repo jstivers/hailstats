@@ -7,6 +7,9 @@ vector<int> hailstone (int input) {
     //  variables
 
     int counter = 0;
+
+    //   in hindsight using vectors was unnecessary but i wanted to learn how to use them
+
     vector<int> holder(2);
 
     //  algorithm

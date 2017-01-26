@@ -2,12 +2,10 @@
 #include <vector>
 using namespace std;
 
-vector hailstone (int input);
-
-vector hailstone (int input) {
+vector<int> hailstone (int input) {
     //variables
     int counter = 0;
-    vector<int> holder(2);
+    std:vector<int> holder(2);
     //io
     cin >> input;
     //algorithm
@@ -16,7 +14,7 @@ vector hailstone (int input) {
             input = input % 2 == 0 ? input / 2 : ( input * 3 ) + 1;
             counter ++;
         }
-        while ( input != 1 );
+        while ( 1 != input );
     }
     else {
     }
@@ -31,9 +29,9 @@ int main () {
     int input;
     int input2;
     int comparison;
-    vector<int> holder(2);
+    std:vector<int> holder(2);
     //io
-    cout << ( "Enter the range you want to search: " );
+    cout << "Enter the range you want to search: ";
     cin >> input;
     cin >> input2;
     //algorithm
@@ -41,7 +39,7 @@ int main () {
             input < input2 ; input ++ ;
             ) {
         holder = hailstone (input);
-        if ( holder < comparison ) {
+        if ( holder[0] < comparison ) {
             comparison = holder[0];
         }
         cout<<holder[0]<<endl<<holder[1];

@@ -1,13 +1,13 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
-array hailstone (int input);
+vector hailstone (int input);
 
-array hailstone (int input) {
+vector hailstone (int input) {
     //variables
     int counter = 0;
-    int foobar [2];
+    vector<int> holder(2);
     //io
     cin >> input;
     //algorithm
@@ -20,18 +20,18 @@ array hailstone (int input) {
     }
     else {
     }
-    foobar[ 0 ] = { counter };
-    foobar[ 1 ] = { input };
+    holder[ 0 ] = { counter };
+    holder[ 1 ] = { input };
 
-    return foobar;
+    return holder;
 }
 
 int main () {
     //variables
     int input;
     int input2;
-    array holder[2];
     int comparison;
+    vector<int> holder(2);
     //io
     cout << ( "Enter the range you want to search: " );
     cin >> input;
@@ -42,8 +42,9 @@ int main () {
             ) {
         holder = hailstone (input);
         if ( holder < comparison ) {
-            comparison = holder;
+            comparison = holder[0];
         }
+        cout<<holder[0]<<endl<<holder[1];
 
     }
 

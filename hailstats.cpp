@@ -84,7 +84,7 @@ int main () {
         }input_for_min++;
     }
 
-    //io
+    //  io
 
     cout<<("\nMinimum length: ")<<comparison<<("\nAchieved by: ")<<min_val;
 
@@ -108,7 +108,7 @@ int main () {
         }input_for_max++;
     }
 
-    //io
+    //  io
 
     cout<<("\nMaximum length: ")<<comparison<<("\nAchieved by: ")<<max_val;
 

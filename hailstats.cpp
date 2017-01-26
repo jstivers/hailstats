@@ -6,8 +6,6 @@ vector<int> hailstone (int input) {
     //variables
     int counter = 0;
     std:vector<int> holder(2);
-    //io
-    cin >> input;
     //algorithm
     if ( 1 != input ) {
         do {
@@ -35,19 +33,19 @@ int main () {
     cin >> input;
     cin >> input2;
     //algorithm
-    for (
-            input < input2 ; input ++ ;
-            ) {
+    while (input < input2){
+        input ++;
         holder = hailstone (input);
         if ( holder[0] < comparison ) {
             comparison = holder[0];
         }
-        cout<<holder[0]<<endl<<holder[1];
+
 
     }
 
-
+    cout<<holder[0]<<endl<<holder[1];
     return 0;
+
 }
 
 
